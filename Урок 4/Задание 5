@@ -1,0 +1,7 @@
+s = int(input())
+h = s // 3600
+hs = h * 3600
+osts = s - hs
+m = osts // 60
+sec = osts - m * 60
+print(s, 'секунд - это', h, 'час', m, 'минут', sec, 'сек')
