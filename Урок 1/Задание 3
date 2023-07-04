@@ -1,1 +1,7 @@
-
+print('Как вас зовут?')
+name = input()
+print('Как ваша фамилия?')
+surname = input()
+print('Как ваше отчество?')
+fathersname = input()
+print('Приятно познакомиться,', name, fathersname, surname)
