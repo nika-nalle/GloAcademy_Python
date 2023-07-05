@@ -1,0 +1,16 @@
+print('Введите одно шестизначное целое число - номер билета')
+a = int(input())
+one = a // 100000
+two = a // 10000 % 10
+three = a // 1000 % 10
+four = a // 100 % 10
+five = a // 10 % 10
+six = a % 10
+
+first = one + two + three
+second = four + five + six
+
+if first == second:
+    print('Билет', a, 'счастливый')
+else:
+    print('Билет', a, 'НЕсчастливый')
