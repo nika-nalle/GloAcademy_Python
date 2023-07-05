@@ -1,0 +1,7 @@
+print('Введите количество задач')
+k = int(input())
+print('Сколько задач за день вы успеваете сделать?')
+m = int(input())
+import math
+r = math.ceil(k / m)
+print(r)
