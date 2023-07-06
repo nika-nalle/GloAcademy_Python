@@ -1,0 +1,13 @@
+print('Ввод первой статьи')
+first = input()
+print('Ввод второй статьи')
+second = input()
+print('Ввод третьей статьи')
+third = input()
+
+if len(first) > len(second) and len(first) > len(third):
+    print(first)
+elif len(second) > len(first) and len(second) > len(third):
+    print(second)
+else:
+    print(third)
