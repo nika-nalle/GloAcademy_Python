@@ -1,0 +1,7 @@
+print('Введите ваш адрес')
+name = input()
+
+if '@' in name and '.' in name:
+    print('Корректный')
+else:
+    print('Некорректный')
