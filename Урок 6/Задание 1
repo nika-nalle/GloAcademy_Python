@@ -1,0 +1,3 @@
+print('Введите число')
+s = input()
+print(len(s))
